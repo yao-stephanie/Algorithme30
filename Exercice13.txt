@@ -1,0 +1,13 @@
+Algorithme somme
+variable i,b,som: entier
+Début
+    Ecrire("entrer un nombre")
+    Lire(b)
+    som=0
+      pour( i=1 & i<=b)
+        si(i==1 & i<=b) alors
+          som=som+i
+            Ecrire("la somme de ce nombre est",som)
+        finsi
+      finpour
+Fin

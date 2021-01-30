@@ -1,0 +1,18 @@
+Algorithme Nbsuccessive2
+variable B,i,PG,PPG :enter
+Début
+    PG=0
+    i=0
+    B=1
+    tantque(B<>0)
+        Ecrire("entrer un nombre")
+        Lire(B)
+        i=i*1
+        si(i=1 || B>PG) alors
+          PG=B
+          PPG=i 
+        finsi
+    fintantque
+    Ecrire("le nombre le plus grand etait",PG)
+    Ecrire("Il a ete saisi a la position numero",PPG)
+Fin

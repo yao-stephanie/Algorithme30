@@ -1,0 +1,7 @@
+variable i,Nb(5): entier
+Début
+    pour(i=0 & i<=5)
+       Nb(i)= i*i
+        Ecrire(","Nb(i))
+    finpour
+Fin

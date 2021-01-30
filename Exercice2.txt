@@ -1,0 +1,15 @@
+Algorithme Heure
+variable H,M :entier
+Début
+     Ecrire("entrer les heures puis les minutes")
+     Lire("H,M)
+     M=M+1
+       si M==60 alors
+          M=0
+          H=H+1
+        finsi
+        si H==24 alors
+           H=0
+        finsi
+          Ecrire("dans une minute il sera",H,"heure",m,"minute")
+Fin

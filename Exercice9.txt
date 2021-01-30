@@ -1,0 +1,12 @@
+Algorithme nombre
+variable a:entier
+Début
+    a=0
+    tant que(a<1 || a>3)
+      Ecrire("enter un nombre entre 1 et 3")
+      Lire(a)
+        si( a<1 || a>3) alors
+          Ecrire("erreur recommencer")
+        finsi
+    fintantque
+Fin

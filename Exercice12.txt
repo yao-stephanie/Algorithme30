@@ -1,0 +1,10 @@
+Algorithme Tabmultip
+variable i,n: entier
+Début
+    Ecrire("entrer un nombre")
+    Lire(n)
+      pour( i==1 & i<=10)
+       n=n*i
+      finpour
+    Ecrire("la table de multiplication est",n)
+Fin

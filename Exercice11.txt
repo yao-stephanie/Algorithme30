@@ -1,0 +1,12 @@
+Algorithme nombresuivant
+variable k,m,stop: entier
+Début
+    Ecrire("entrer un nombre")
+    Lire(m)
+    stop= m+10
+    Ecrire("les 10 nombres suivant sont")
+      tant que( m<stop)
+       m=m+1
+      fintantque
+    Ecrire("les 10 nombres suivant sont",m)
+Fin

@@ -1,0 +1,10 @@
+Algorithme somtable
+variable n,tab1,som: entier
+Début
+    Ecrire("entrer le tableau")
+    Lire(tab1)
+        si(i==1 & i<=n) alors
+          som=tab1+tab(1+i)
+            Ecrire("la somme est",som)
+        finsi
+Fin

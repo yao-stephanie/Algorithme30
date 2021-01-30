@@ -1,0 +1,15 @@
+Algorithme Nbsuccessive
+variable B,i,PG,PPG :enter
+Début
+    PG=0
+    pour(i=1 & i=20)
+        Ecrire("entrer un nombre")
+        Lire(B)
+        si(i=1 || B>PG) alors
+          PG=B
+          PPG=i 
+        finsi
+           Ecrire("le nombre le plus grand etait",PG)
+           Ecrire("Il a ete saisi a la position numero",PPG)
+    finpour
+Fin

@@ -1,0 +1,30 @@
+Algorithme suiteprix
+variable H,somdue,M,reste,Nb10E,Nb5E :entier
+Début
+     H=1
+     somdue=0
+     tantque H=0
+        Ecrire("entrer le montant")
+        Lire(H)
+        somdue=somdue+H
+    fintantque
+    Ecrire("vous devez",somdue,"Euro")
+    Ecrire("montant verse")
+    Lire(M)
+    reste=M-somdue
+    Nb10E=0
+    tantque reste>=10
+        Nb10E=Nb10E+1
+        reste=reste-10
+    fintantque
+        Nb5E=0
+        si("reste>=5) alors
+            Nb5E=1
+            reste=reste-5
+        finsi
+    fintantque
+    Ecrire("monnaie rendu")
+    Ecrire("Billets de 10E:",Nb10E)
+    Ecrire("Billets de 5E:",Nb5E)
+    Ecrire("Billets de 1E:",reste)
+Fin

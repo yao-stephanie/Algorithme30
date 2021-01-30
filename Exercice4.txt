@@ -1,0 +1,15 @@
+Algorithme Heure
+variable n :entier
+         p :reel
+Début
+     Ecrire("entrer le nombre de photocopies")
+     Lire(n)
+       si(n<=10) alors
+          p=n*0,1
+        sinon si(n<=30) alors
+          p=n*0,1+(n-10)*0,09
+        sinon 
+          p=n*0,1+20*0,09+(n-30)*0,08
+        finsi
+          Ecrire("le prix total est",p)
+Fin

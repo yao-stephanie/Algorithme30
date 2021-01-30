@@ -1,0 +1,14 @@
+Algorithme nombre1
+variable d:entier
+Début
+    d=0
+    tant que(d<10 || d>20)
+      Ecrire("enter un nombre entre 10 et 20")
+      Lire(d)
+        si( d<10) alors
+          Ecrire("entrer un nombre plus grand")
+          sinon si( d>20) alors
+             Ecrire("entrer un nombre plus petit")
+        finsi
+    fintantque
+Fin

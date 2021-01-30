@@ -1,0 +1,11 @@
+Algorithme somme
+variable i,F,A: entier
+Début
+    Ecrire("entrer un nombre")
+    Lire(A)
+    F=1
+      pour( i=1 & i<=A)
+          F=F*i
+            Ecrire("la factorielle de ce nombre est",F)
+      finpour
+Fin
