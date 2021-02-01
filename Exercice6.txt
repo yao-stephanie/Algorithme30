@@ -1,0 +1,15 @@
+Algorithme Election
+variable L,K,M,N caractère
+Début
+    Ecrire("enter les scores des candidats")
+    Lire(L,K,M,N)
+    si L>50 alors
+        Ecrire("le candidats es elu au premier tour)
+      sinon si (K>50 ou M>50 ou N>50 ou L<=12,5) alors
+        Ecrire("battu,eliminé,sorti")
+      sinon si(L>=K et L>=M et L>=N) alors
+        Ecrire("ballotage favorable")
+      sinon
+        Ecrire("ballotage defavorable")
+    finsi
+Fin

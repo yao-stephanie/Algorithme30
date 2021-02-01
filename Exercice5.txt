@@ -1,0 +1,14 @@
+Algorithme Impot
+variable C1,C2,sexe :caractère
+          age :entier
+Début
+    Ecrire("entrer le sexe (m/f))
+    Lire(sexe)
+    Ecrire("entrer l'age")
+    Lire(age)
+    C1= sexe=="M" & age>20
+    C2= sexe=="f" & (age>18 & age<35)
+    si C1 ou C2 alors
+        Ecrire("imposable")
+    finsi
+Fin
